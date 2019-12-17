@@ -3,6 +3,6 @@ USER root
 MAINTAINER student57
 ADD ./etc/httpd/conf /etc/httpd/conf
 ADD ./var/www/html /var/www/html
-RUN chown -r apache:apache /var/www/html
+RUN chown -R apache:apache /var/www/html
 EXPOSE 8080
 
