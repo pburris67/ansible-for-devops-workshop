@@ -8,7 +8,7 @@
   notify: restart-apache-service
 
 - name: Ensure site-enabled directory is created
-   file:
+  file:
      name: /etc/httpd/conf/sites-enabled
      state: directory
 
